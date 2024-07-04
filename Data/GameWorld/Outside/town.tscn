@@ -1,14 +1,14 @@
 [gd_scene load_steps=10 format=3 uid="uid://5f4egyqkty7b"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_msvru"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://Assets/Sprites/Tilesets/main_tileset.tres" id="2_hyta7"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_hyta7"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_mqjg6"]
-[ext_resource type="Texture2D" uid="uid://cvn67vjajfv8s" path="res://Assets/Sprites/HOUSE.png" id="4_2uao1"]
+[ext_resource type="Texture2D" uid="uid://cvn67vjajfv8s" path="res://BugAssets/Sprites/HOUSE.png" id="4_2uao1"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_34lij"]
-[ext_resource type="Texture2D" uid="uid://qe5pj0ypkjqu" path="res://Assets/Sprites/Lab.png" id="5_kaqbv"]
-[ext_resource type="Texture2D" uid="uid://bpuupam1k4nbv" path="res://Assets/Sprites/HOUSEalt.png" id="6_c1y7t"]
+[ext_resource type="Texture2D" uid="uid://qe5pj0ypkjqu" path="res://BugAssets/Sprites/Lab.png" id="5_kaqbv"]
+[ext_resource type="Texture2D" uid="uid://bpuupam1k4nbv" path="res://BugAssets/Sprites/HOUSEalt.png" id="6_c1y7t"]
 [ext_resource type="PackedScene" uid="uid://mqjlig48ay3i" path="res://Data/NPC/npc.tscn" id="6_kkj51"]
-[ext_resource type="Texture2D" uid="uid://cwvo3dfg2sk4f" path="res://Assets/Sprites/NPC/NPCSheet-props.png" id="9_hljge"]
+[ext_resource type="Texture2D" uid="uid://cwvo3dfg2sk4f" path="res://BugAssets/Sprites/NPC/NPCSheet-props.png" id="9_hljge"]
 
 [node name="Town" type="Node2D"]
 script = ExtResource("1_msvru")

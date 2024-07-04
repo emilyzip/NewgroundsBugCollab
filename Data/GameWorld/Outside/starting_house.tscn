@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://2mjhg1jgsy0i"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_4tcph"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://Assets/Sprites/Tilesets/main_tileset.tres" id="2_5kfv0"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_5kfv0"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_3hp6b"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_6l04h"]
 [ext_resource type="PackedScene" uid="uid://mqjlig48ay3i" path="res://Data/NPC/npc.tscn" id="4_qs4db"]
-[ext_resource type="Texture2D" uid="uid://cwvo3dfg2sk4f" path="res://Assets/Sprites/NPC/NPCSheet-props.png" id="6_svd00"]
+[ext_resource type="Texture2D" uid="uid://cwvo3dfg2sk4f" path="res://BugAssets/Sprites/NPC/NPCSheet-props.png" id="6_svd00"]
 
 [node name="StartingHouse" type="Node2D"]
 script = ExtResource("1_4tcph")

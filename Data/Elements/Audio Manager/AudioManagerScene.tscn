@@ -1,13 +1,13 @@
 [gd_scene load_steps=9 format=3 uid="uid://dw7edtupm3agp"]
 
 [ext_resource type="Script" path="res://Data/Elements/Audio Manager/AudioManager.gd" id="1_42ebs"]
-[ext_resource type="AudioStream" uid="uid://bmqh2rx1edgmp" path="res://Assets/Audio/MUSIC_BugMusic.mp3" id="1_rmu8v"]
-[ext_resource type="AudioStream" uid="uid://bvlfk1oi1h3ld" path="res://Assets/Audio/UI_DialogProgression.mp3" id="2_y2mgk"]
-[ext_resource type="AudioStream" uid="uid://ctdamunh7gx28" path="res://Assets/Audio/UI_close.mp3" id="3_ff3q0"]
-[ext_resource type="AudioStream" uid="uid://bjau6api68kdw" path="res://Assets/Audio/UI_Inspect.mp3" id="4_132i5"]
-[ext_resource type="AudioStream" uid="uid://ev8rmni658u0" path="res://Assets/Audio/DOOR_EnterExit.mp3" id="5_daryl"]
-[ext_resource type="AudioStream" uid="uid://ddde488naubbq" path="res://Assets/Audio/BUG_squeak.mp3" id="7_lv2ls"]
-[ext_resource type="AudioStream" uid="uid://1swx2c1jp73n" path="res://Assets/Audio/BUG_chirp.mp3" id="8_omd2p"]
+[ext_resource type="AudioStream" uid="uid://bmqh2rx1edgmp" path="res://BugAssets/Audio/MUSIC_BugMusic.mp3" id="1_rmu8v"]
+[ext_resource type="AudioStream" uid="uid://bvlfk1oi1h3ld" path="res://BugAssets/Audio/UI_DialogProgression.mp3" id="2_y2mgk"]
+[ext_resource type="AudioStream" uid="uid://ctdamunh7gx28" path="res://BugAssets/Audio/UI_close.mp3" id="3_ff3q0"]
+[ext_resource type="AudioStream" uid="uid://bjau6api68kdw" path="res://BugAssets/Audio/UI_Inspect.mp3" id="4_132i5"]
+[ext_resource type="AudioStream" uid="uid://ev8rmni658u0" path="res://BugAssets/Audio/DOOR_EnterExit.mp3" id="5_daryl"]
+[ext_resource type="AudioStream" uid="uid://ddde488naubbq" path="res://BugAssets/Audio/BUG_squeak.mp3" id="7_lv2ls"]
+[ext_resource type="AudioStream" uid="uid://1swx2c1jp73n" path="res://BugAssets/Audio/BUG_chirp.mp3" id="8_omd2p"]
 
 [node name="AudioManager" type="Node"]
 script = ExtResource("1_42ebs")

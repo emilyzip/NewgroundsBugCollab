@@ -1,7 +1,7 @@
 [gd_scene load_steps=27 format=3 uid="uid://cg0qlayed7ifb"]
 
 [ext_resource type="Script" path="res://Data/Player/player.gd" id="1_pm522"]
-[ext_resource type="Texture2D" uid="uid://c6ada66obwfku" path="res://Assets/Sprites/Player/wormsprites.png" id="2_j46vm"]
+[ext_resource type="Texture2D" uid="uid://c6ada66obwfku" path="res://BugAssets/Sprites/Player/wormsprites.png" id="2_j46vm"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pqei6"]
 size = Vector2(16, 16)

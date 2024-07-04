@@ -1,0 +1,3 @@
+[submodule "BugAssets"]
+	path = BugAssets
+	url = https://github.com/emilyzip/BugAssets

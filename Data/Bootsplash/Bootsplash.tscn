@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://jh7gqsdcrvxj"]
 
 [ext_resource type="Script" path="res://Data/Bootsplash/Bootsplash.gd" id="1_3clir"]
-[ext_resource type="Texture2D" uid="uid://c8gom6ox8b4gg" path="res://Assets/Bootsplash/godotgrounds_trans_text.png" id="1_qlewo"]
+[ext_resource type="Texture2D" uid="uid://c8gom6ox8b4gg" path="res://BugAssets/Bootsplash/godotgrounds_trans_text.png" id="1_qlewo"]
 
 [sub_resource type="Animation" id="Animation_81nnr"]
 length = 0.001

@@ -1,11 +1,11 @@
 [gd_scene load_steps=12 format=3 uid="uid://ci5kxuygcnrri"]
 
-[ext_resource type="Texture2D" uid="uid://c6b80mm2fssok" path="res://Assets/Sprites/UI/texbox2.png" id="1_jicmd"]
+[ext_resource type="Texture2D" uid="uid://c6b80mm2fssok" path="res://BugAssets/Sprites/UI/texbox2.png" id="1_jicmd"]
 [ext_resource type="Script" path="res://Data/Elements/Menus/Credits/creditsmenu.gd" id="1_owaux"]
 [ext_resource type="FontFile" uid="uid://bh7xyktqdu30q" path="res://Data/Pokemon Classic.ttf" id="2_5o37q"]
-[ext_resource type="Texture2D" uid="uid://cmndtjkh1vidh" path="res://Assets/Sprites/UI/Menu Buttons/returnbutton.png" id="4_8auia"]
-[ext_resource type="Texture2D" uid="uid://df4d7bpn484gm" path="res://Assets/Sprites/UI/Menu Buttons/returnbutton_hover.png" id="5_j1bd0"]
-[ext_resource type="Texture2D" uid="uid://dewopch73qswj" path="res://Assets/Sprites/UI/MenuBG.png" id="6_73jsq"]
+[ext_resource type="Texture2D" uid="uid://cmndtjkh1vidh" path="res://BugAssets/Sprites/UI/Menu Buttons/returnbutton.png" id="4_8auia"]
+[ext_resource type="Texture2D" uid="uid://df4d7bpn484gm" path="res://BugAssets/Sprites/UI/Menu Buttons/returnbutton_hover.png" id="5_j1bd0"]
+[ext_resource type="Texture2D" uid="uid://dewopch73qswj" path="res://BugAssets/Sprites/UI/MenuBG.png" id="6_73jsq"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_i7bfo"]
 font = ExtResource("2_5o37q")

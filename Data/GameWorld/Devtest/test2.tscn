@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_hrw1d"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="2_rx1fv"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://Assets/Sprites/Tilesets/main_tileset.tres" id="3_aytds"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="3_aytds"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_0q08j"]
 
 [node name="TestWorld2" type="Node2D"]

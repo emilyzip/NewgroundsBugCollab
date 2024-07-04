@@ -1,7 +1,7 @@
 [gd_scene load_steps=34 format=3 uid="uid://dsbiby5daaqy"]
 
 [ext_resource type="Script" path="res://Data/Elements/TransScene/transition_screen.gd" id="1_0u104"]
-[ext_resource type="Texture2D" uid="uid://dhh2eudtsrhmy" path="res://Assets/Sprites/UI/transition_fix.png" id="2_wpi02"]
+[ext_resource type="Texture2D" uid="uid://dhh2eudtsrhmy" path="res://BugAssets/Sprites/UI/transition_fix.png" id="2_wpi02"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ucpqg"]
 atlas = ExtResource("2_wpi02")
