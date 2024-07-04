@@ -6,8 +6,6 @@
  `git clone --recurse-submodules https://github.com/emilyzip/NewgroundsBugCollab`   
  After you clone you'll have to restart the editor 3 or 4 times without saving for all the assets to import correctly, i think its a godot issue?   
  
- I'm still new to this whole github thing so please do contact me if there are any insane issues here  
- 
  You will have to import these two fonts yourself, they are typically stored in 'root/PrivateData/'  
  [PKMN RBYGSC](https://www.dafont.com/pkmn-rbygsc.font)  
  [Pokemon Classic](https://www.dafont.com/pokemon-classic.font)  
