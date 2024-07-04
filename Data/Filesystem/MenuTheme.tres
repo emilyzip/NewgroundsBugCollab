@@ -1,0 +1,22 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://jhlehr30te67"]
+
+[ext_resource type="FontFile" uid="uid://dcuqudims42im" path="res://Data/PKMN RBYGSC.ttf" id="1_p101i"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kcqqo"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pfylb"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lnagi"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0td0w"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_w6g24"]
+
+[resource]
+default_font = ExtResource("1_p101i")
+default_font_size = 14
+CheckButton/styles/disabled = SubResource("StyleBoxEmpty_kcqqo")
+CheckButton/styles/hover = SubResource("StyleBoxEmpty_pfylb")
+CheckButton/styles/hover_pressed = SubResource("StyleBoxEmpty_lnagi")
+CheckButton/styles/normal = SubResource("StyleBoxEmpty_0td0w")
+CheckButton/styles/pressed = SubResource("StyleBoxEmpty_w6g24")

@@ -1,0 +1,202 @@
+[gd_scene load_steps=13 format=3 uid="uid://6urcw34fhl82"]
+
+[ext_resource type="Texture2D" uid="uid://c6b80mm2fssok" path="res://Assets/Sprites/UI/texbox2.png" id="1_1foti"]
+[ext_resource type="Theme" uid="uid://jhlehr30te67" path="res://Data/Filesystem/MenuTheme.tres" id="1_eju1s"]
+[ext_resource type="Script" path="res://Data/Elements/Menus/Options/optionsmenu.gd" id="1_xn8ap"]
+[ext_resource type="Texture2D" uid="uid://cmndtjkh1vidh" path="res://Assets/Sprites/UI/Menu Buttons/returnbutton.png" id="2_oc0v8"]
+[ext_resource type="Texture2D" uid="uid://df4d7bpn484gm" path="res://Assets/Sprites/UI/Menu Buttons/returnbutton_hover.png" id="3_rwi32"]
+[ext_resource type="Texture2D" uid="uid://dewopch73qswj" path="res://Assets/Sprites/UI/MenuBG.png" id="4_f0poo"]
+[ext_resource type="FontFile" uid="uid://bh7xyktqdu30q" path="res://Data/Pokemon Classic.ttf" id="5_2p6a5"]
+[ext_resource type="Script" path="res://Data/Elements/Menus/Options/MasterVolumeSlider.gd" id="5_24hn5"]
+[ext_resource type="Script" path="res://Data/Elements/Menus/Options/MusicVolumeSlider.gd" id="6_gcpgw"]
+[ext_resource type="Script" path="res://Data/Elements/Menus/Options/SFXVolumeSlider.gd" id="7_20i4n"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_gnsfk"]
+font = ExtResource("5_2p6a5")
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_ejpko"]
+font_size = 24
+font_color = Color(0, 0, 0, 1)
+
+[node name="Options" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xn8ap")
+
+[node name="MenuBg" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 7.31765, 1)
+z_index = -5
+texture = ExtResource("4_f0poo")
+centered = false
+metadata/_edit_lock_ = true
+
+[node name="OptionsMenu" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -279.0
+offset_top = -230.0
+offset_right = 267.0
+offset_bottom = 176.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_eju1s")
+texture = ExtResource("1_1foti")
+patch_margin_left = 15
+patch_margin_top = 15
+patch_margin_right = 15
+patch_margin_bottom = 15
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[node name="SoundTestLabel" type="Label" parent="OptionsMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -247.0
+offset_top = 131.0
+offset_right = 235.0
+offset_bottom = 165.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 8
+text = "Press 'Space' to play a sound test!"
+label_settings = SubResource("LabelSettings_gnsfk")
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="OptionsMenu"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 30.0
+offset_right = 516.0
+offset_bottom = 326.0
+
+[node name="MusicToggle" type="CheckBox" parent="OptionsMenu/VBoxContainer"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+shortcut_feedback = false
+shortcut_in_tooltip = false
+text = "  Disable Music?"
+
+[node name="Label" type="Label" parent="OptionsMenu/VBoxContainer"]
+layout_mode = 2
+
+[node name="MasterVolumeLabel" type="Label" parent="OptionsMenu/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Master Volume"
+label_settings = SubResource("LabelSettings_ejpko")
+
+[node name="MasterVolumeSlider" type="HSlider" parent="OptionsMenu/VBoxContainer/MasterVolumeLabel"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 2
+offset_left = 2.0
+offset_top = 31.0
+offset_right = 472.0
+offset_bottom = 47.0
+max_value = 1.0
+step = 0.0
+script = ExtResource("5_24hn5")
+
+[node name="MusicVolumeLabel" type="Label" parent="OptionsMenu/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Music Volume"
+label_settings = SubResource("LabelSettings_ejpko")
+
+[node name="MusicVolumeSlider" type="HSlider" parent="OptionsMenu/VBoxContainer/MusicVolumeLabel"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 2
+offset_left = 2.0
+offset_top = 31.0
+offset_right = 472.0
+offset_bottom = 47.0
+max_value = 1.0
+step = 0.0
+script = ExtResource("6_gcpgw")
+
+[node name="SFXVolumeLabel" type="Label" parent="OptionsMenu/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "SFX Volume"
+label_settings = SubResource("LabelSettings_ejpko")
+
+[node name="SFXVolumeSlider" type="HSlider" parent="OptionsMenu/VBoxContainer/SFXVolumeLabel"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 2
+offset_left = 2.0
+offset_top = 29.0
+offset_right = 472.0
+offset_bottom = 45.0
+max_value = 1.0
+step = 0.0
+script = ExtResource("7_20i4n")
+
+[node name="Control Menu" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -151.0
+offset_top = 202.0
+offset_right = 137.0
+offset_bottom = 282.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_1foti")
+patch_margin_left = 15
+patch_margin_top = 15
+patch_margin_right = 15
+patch_margin_bottom = 15
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control Menu"]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -110.0
+offset_top = 48.0
+offset_right = 111.0
+offset_bottom = -48.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Return to Menu" type="TextureButton" parent="Control Menu/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+texture_normal = ExtResource("2_oc0v8")
+texture_hover = ExtResource("3_rwi32")
+
+[connection signal="toggled" from="OptionsMenu/VBoxContainer/MusicToggle" to="." method="_on_music_toggle_toggled"]
+[connection signal="value_changed" from="OptionsMenu/VBoxContainer/MasterVolumeLabel/MasterVolumeSlider" to="OptionsMenu/VBoxContainer/MasterVolumeLabel/MasterVolumeSlider" method="_on_value_changed"]
+[connection signal="value_changed" from="OptionsMenu/VBoxContainer/MusicVolumeLabel/MusicVolumeSlider" to="OptionsMenu/VBoxContainer/MusicVolumeLabel/MusicVolumeSlider" method="_on_value_changed"]
+[connection signal="value_changed" from="OptionsMenu/VBoxContainer/SFXVolumeLabel/SFXVolumeSlider" to="OptionsMenu/VBoxContainer/SFXVolumeLabel/SFXVolumeSlider" method="_on_value_changed"]
+[connection signal="pressed" from="Control Menu/VBoxContainer/Return to Menu" to="." method="_on_return_to_menu_pressed"]

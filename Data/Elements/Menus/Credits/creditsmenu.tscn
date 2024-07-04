@@ -1,0 +1,225 @@
+[gd_scene load_steps=12 format=3 uid="uid://ci5kxuygcnrri"]
+
+[ext_resource type="Texture2D" uid="uid://c6b80mm2fssok" path="res://Assets/Sprites/UI/texbox2.png" id="1_jicmd"]
+[ext_resource type="Script" path="res://Data/Elements/Menus/Credits/creditsmenu.gd" id="1_owaux"]
+[ext_resource type="FontFile" uid="uid://bh7xyktqdu30q" path="res://Data/Pokemon Classic.ttf" id="2_5o37q"]
+[ext_resource type="Texture2D" uid="uid://cmndtjkh1vidh" path="res://Assets/Sprites/UI/Menu Buttons/returnbutton.png" id="4_8auia"]
+[ext_resource type="Texture2D" uid="uid://df4d7bpn484gm" path="res://Assets/Sprites/UI/Menu Buttons/returnbutton_hover.png" id="5_j1bd0"]
+[ext_resource type="Texture2D" uid="uid://dewopch73qswj" path="res://Assets/Sprites/UI/MenuBG.png" id="6_73jsq"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_i7bfo"]
+font = ExtResource("2_5o37q")
+font_size = 40
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_wf305"]
+font = ExtResource("2_5o37q")
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_70uxk"]
+font = ExtResource("2_5o37q")
+font_size = 24
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_cn1ki"]
+font = ExtResource("2_5o37q")
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_i3v5j"]
+font = ExtResource("2_5o37q")
+font_color = Color(0, 0, 0, 1)
+
+[node name="Creditsmenu" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_owaux")
+
+[node name="Credits" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -304.0
+offset_top = -342.0
+offset_right = 304.0
+offset_bottom = 284.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_jicmd")
+patch_margin_left = 15
+patch_margin_top = 15
+patch_margin_right = 15
+patch_margin_bottom = 15
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Credits"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -272.0
+offset_top = -281.0
+offset_right = 272.0
+offset_bottom = 279.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+text = "CREDITS
+"
+label_settings = SubResource("LabelSettings_i7bfo")
+horizontal_alignment = 1
+
+[node name="Divider" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+text = "
+"
+label_settings = SubResource("LabelSettings_wf305")
+horizontal_alignment = 1
+
+[node name="Frosty Title" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Frosty"
+label_settings = SubResource("LabelSettings_70uxk")
+horizontal_alignment = 1
+
+[node name="Frosty Desc" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Collab Oraganizer, Art, and Writing"
+label_settings = SubResource("LabelSettings_cn1ki")
+horizontal_alignment = 1
+
+[node name="Emizip Title" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Emizip"
+label_settings = SubResource("LabelSettings_70uxk")
+horizontal_alignment = 1
+
+[node name="Emizip Desc" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Game Design, UI, and Programming"
+label_settings = SubResource("LabelSettings_cn1ki")
+horizontal_alignment = 1
+
+[node name="Conundrym Title" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Conundrym"
+label_settings = SubResource("LabelSettings_70uxk")
+horizontal_alignment = 1
+
+[node name="Conundrym Desc" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "SFX, Music, Art, and Writing
+"
+label_settings = SubResource("LabelSettings_cn1ki")
+horizontal_alignment = 1
+
+[node name="Kuni Title" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Kunishiro"
+label_settings = SubResource("LabelSettings_70uxk")
+horizontal_alignment = 1
+
+[node name="Kuni Desc" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Organization Assist, Art, and Writing"
+label_settings = SubResource("LabelSettings_cn1ki")
+horizontal_alignment = 1
+
+[node name="Divider2" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+text = "
+"
+label_settings = SubResource("LabelSettings_wf305")
+horizontal_alignment = 1
+
+[node name="Special Thanks" type="Label" parent="Credits/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "Special Thanks to 
+SDGNelson"
+label_settings = SubResource("LabelSettings_i3v5j")
+horizontal_alignment = 1
+
+[node name="License" type="LinkButton" parent="Credits/VBoxContainer"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 10
+theme_override_fonts/font = ExtResource("2_5o37q")
+text = "godotengine.org/license"
+underline = 1
+uri = "https://godotengine.org/license/"
+
+[node name="Control Menu" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -144.0
+offset_top = 296.0
+offset_right = 144.0
+offset_bottom = 376.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_jicmd")
+patch_margin_left = 15
+patch_margin_top = 15
+patch_margin_right = 15
+patch_margin_bottom = 15
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control Menu"]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -110.0
+offset_top = 48.0
+offset_right = 111.0
+offset_bottom = -48.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Return to Menu" type="TextureButton" parent="Control Menu/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+texture_normal = ExtResource("4_8auia")
+texture_hover = ExtResource("5_j1bd0")
+
+[node name="MenuBg" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 0, 1)
+z_index = -5
+position = Vector2(-455, -390)
+texture = ExtResource("6_73jsq")
+centered = false
+metadata/_edit_lock_ = true
+
+[connection signal="pressed" from="Control Menu/VBoxContainer/Return to Menu" to="." method="_on_return_to_menu_pressed"]

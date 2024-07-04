@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://c524omjy3xg2u"]
+
+[ext_resource type="Script" path="res://Data/Player/camera_pan_detector.gd" id="1_yjtu5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u8e4e"]
+size = Vector2(16, 16)
+
+[node name="CameraPanDetector" type="Area2D"]
+collision_layer = 4
+collision_mask = 4
+script = ExtResource("1_yjtu5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_u8e4e")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(0, -32)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

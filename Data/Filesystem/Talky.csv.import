@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bni1x26cbandm"
+
+[deps]
+
+files=["res://Data/Filesystem/Talky.en.translation"]
+
+source_file="res://Data/Filesystem/Talky.csv"
+dest_files=["res://Data/Filesystem/Talky.en.translation"]
+
+[params]
+
+compress=true
+delimiter=0
