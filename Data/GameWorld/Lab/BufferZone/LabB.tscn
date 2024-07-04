@@ -1,7 +1,7 @@
 [gd_scene load_steps=31 format=3 uid="uid://c0xvifg5i75aq"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_smw1j"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_6ls0f"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://Data/main_tileset.tres" id="2_5qhxf"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_jplj4"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_lk68c"]
 [ext_resource type="Texture2D" uid="uid://v2y1e0e23t6f" path="res://BugAssets/Sprites/Default BGs/mediumterrarium2.png" id="5_bhw6x"]
@@ -35,7 +35,7 @@
 script = ExtResource("1_smw1j")
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource("2_6ls0f")
+tile_set = ExtResource("2_5qhxf")
 format = 2
 layer_0/name = "Props"
 layer_0/z_index = 1

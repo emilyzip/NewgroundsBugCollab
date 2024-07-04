@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://v2vu4s3ghtsv"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_e5nvj"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_xfjjw"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://Data/main_tileset.tres" id="2_xfjjw"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_x288u"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_2fli0"]
 [ext_resource type="Texture2D" uid="uid://cwvo3dfg2sk4f" path="res://BugAssets/Sprites/NPC/NPCSheet-props.png" id="5_1wtcn"]

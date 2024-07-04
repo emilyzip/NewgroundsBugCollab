@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://befuvylf5glxl"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_hghqn"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_b7sib"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://Data/main_tileset.tres" id="2_b7sib"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_en0xk"]
 
 [node name="Template" type="Node2D"]

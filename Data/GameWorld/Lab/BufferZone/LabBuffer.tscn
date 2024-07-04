@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://3rw7lisnnj7s"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_5uqas"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_ggnx8"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://Data/main_tileset.tres" id="2_tv31o"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_7jrh2"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_hcxux"]
 [ext_resource type="PackedScene" uid="uid://mqjlig48ay3i" path="res://Data/NPC/npc.tscn" id="4_np2li"]
@@ -10,7 +10,7 @@
 script = ExtResource("1_5uqas")
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource("2_ggnx8")
+tile_set = ExtResource("2_tv31o")
 format = 2
 layer_0/name = "Props"
 layer_0/z_index = 1

@@ -1,7 +1,7 @@
 [gd_scene load_steps=31 format=3 uid="uid://cm0kgvxscxjsg"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_dj8dv"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_bguka"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://Data/main_tileset.tres" id="2_vptsd"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_eul5w"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_c7jmg"]
 [ext_resource type="Texture2D" uid="uid://cquxgs34ag0ui" path="res://BugAssets/Sprites/Bugs/9 Pip The Spider/Pip_the_spider_background.png" id="5_5418n"]
@@ -35,7 +35,7 @@
 script = ExtResource("1_dj8dv")
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource("2_bguka")
+tile_set = ExtResource("2_vptsd")
 format = 2
 layer_0/name = "Props"
 layer_0/z_index = 1

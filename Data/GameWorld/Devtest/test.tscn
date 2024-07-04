@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_d0g68"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="2_046hj"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="3_oh3oy"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://Data/main_tileset.tres" id="3_oh3oy"]
 [ext_resource type="PackedScene" uid="uid://mqjlig48ay3i" path="res://Data/NPC/npc.tscn" id="4_q4iwq"]
 [ext_resource type="Texture2D" uid="uid://dhbpfd2jx28er" path="res://BugAssets/Sprites/Bugs/4 Bubblegum/bugenvoirment_1.png" id="5_82fs3"]
 [ext_resource type="Texture2D" uid="uid://bh2u7n3sqot8v" path="res://BugAssets/Sprites/Default BGs/smalterrarium1.png" id="6_03hyn"]

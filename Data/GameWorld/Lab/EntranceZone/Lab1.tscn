@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_pp2yk"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_eoo2b"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="3_qhsxf"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://Data/main_tileset.tres" id="3_pogds"]
 [ext_resource type="PackedScene" uid="uid://c524omjy3xg2u" path="res://Data/Player/camera_pan_detector.tscn" id="5_b48a8"]
 [ext_resource type="PackedScene" uid="uid://dsjujtwqpp5ob" path="res://Data/Bug/bug.tscn" id="5_b84ke"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="6_o5jot"]
@@ -34,7 +34,7 @@ script = ExtResource("1_pp2yk")
 position = Vector2(120, 8)
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource("3_qhsxf")
+tile_set = ExtResource("3_pogds")
 format = 2
 layer_0/name = "Props"
 layer_0/z_index = 1
