@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Data/Elements/Menus/bug_inspect.gd" id="1_ajwya"]
 [ext_resource type="Texture2D" uid="uid://c6b80mm2fssok" path="res://BugAssets/Sprites/UI/texbox2.png" id="1_h00m8"]
-[ext_resource type="FontFile" uid="uid://bh7xyktqdu30q" path="res://Data/Pokemon Classic.ttf" id="2_u6l71"]
+[ext_resource type="FontFile" uid="uid://bh7xyktqdu30q" path="res://PrivateData/Pokemon Classic.ttf" id="2_u6l71"]
 [ext_resource type="Texture2D" uid="uid://7ynv2gx43vbf" path="res://BugAssets/Sprites/UI/textboxarrow-sheet.png" id="4_8a0d6"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_cs75l"]

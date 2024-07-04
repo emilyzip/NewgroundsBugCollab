@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://c6b80mm2fssok" path="res://BugAssets/Sprites/UI/texbox2.png" id="1_c1r87"]
 [ext_resource type="Script" path="res://Data/Elements/Menus/pausemenu.gd" id="1_h1boq"]
-[ext_resource type="FontFile" uid="uid://bh7xyktqdu30q" path="res://Data/Pokemon Classic.ttf" id="2_mvv7m"]
+[ext_resource type="FontFile" uid="uid://bh7xyktqdu30q" path="res://PrivateData/Pokemon Classic.ttf" id="2_mvv7m"]
 
 [node name="pausemenu" type="CanvasLayer"]
 script = ExtResource("1_h1boq")
