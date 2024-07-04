@@ -1,22 +1,22 @@
 [gd_scene load_steps=12 format=3 uid="uid://bow35fl5pov2n"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_yucb2"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_s18q7"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_xlqq8"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_kkjgc"]
+[ext_resource type="Texture2D" uid="uid://bh2u7n3sqot8v" path="res://BugAssets/Sprites/Default BGs/smalterrarium1.png" id="4_ctgm7"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_fa7cw"]
-[ext_resource type="Texture2D" uid="uid://bh2u7n3sqot8v" path="res://BugAssets/Sprites/Default BGs/smalterrarium1.png" id="4_ta44o"]
-[ext_resource type="Texture2D" uid="uid://c3qnyyk5ncomo" path="res://BugAssets/Sprites/Default BGs/smalterrarium2.png" id="5_ahi4k"]
+[ext_resource type="Texture2D" uid="uid://c3qnyyk5ncomo" path="res://BugAssets/Sprites/Default BGs/smalterrarium2.png" id="5_d5qxx"]
 [ext_resource type="PackedScene" uid="uid://mqjlig48ay3i" path="res://Data/NPC/npc.tscn" id="7_to4li"]
 [ext_resource type="PackedScene" uid="uid://dsjujtwqpp5ob" path="res://Data/Bug/bug.tscn" id="8_jgl8j"]
-[ext_resource type="Texture2D" uid="uid://c15nh0unwslu2" path="res://BugAssets/Sprites/Bugs/0 Pluh/bug.png" id="9_dvsog"]
-[ext_resource type="Texture2D" uid="uid://d003jmn6oyf5j" path="res://BugAssets/Sprites/Bugs/1 TSpider/FunnyPlush.png" id="10_7tmcx"]
+[ext_resource type="Texture2D" uid="uid://c15nh0unwslu2" path="res://BugAssets/Sprites/Bugs/0 Pluh/bug.png" id="9_lbjtm"]
 [ext_resource type="PackedScene" uid="uid://c524omjy3xg2u" path="res://Data/Player/camera_pan_detector.tscn" id="11_5hmvr"]
+[ext_resource type="Texture2D" uid="uid://d003jmn6oyf5j" path="res://BugAssets/Sprites/Bugs/1 TSpider/FunnyPlush.png" id="11_kjo2j"]
 
 [node name="LabEntrance" type="Node2D"]
 script = ExtResource("1_yucb2")
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource("2_s18q7")
+tile_set = ExtResource("2_xlqq8")
 format = 2
 layer_0/name = "Props"
 layer_0/z_index = 1
@@ -36,12 +36,12 @@ position = Vector2(424, 312)
 [node name="Smalterrarium1" type="Sprite2D" parent="Props"]
 z_index = -2
 position = Vector2(312, 216)
-texture = ExtResource("4_ta44o")
+texture = ExtResource("4_ctgm7")
 offset = Vector2(8, 0)
 
 [node name="Smalterrarium2" type="Sprite2D" parent="Props"]
 position = Vector2(472, 152)
-texture = ExtResource("5_ahi4k")
+texture = ExtResource("5_d5qxx")
 centered = false
 offset = Vector2(8, 8)
 
@@ -102,7 +102,7 @@ position = Vector2(312, 232)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("9_dvsog")
+WhatBug = ExtResource("9_lbjtm")
 BugSize = "small"
 
 [node name="CameraPanDetector Bug0" parent="NPCS/TheBug0" instance=ExtResource("11_5hmvr")]
@@ -128,7 +128,7 @@ position = Vector2(520, 232)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("10_7tmcx")
+WhatBug = ExtResource("11_kjo2j")
 BugSize = "small"
 
 [node name="CameraPanDetector Bug1" parent="NPCS/TheBug1" instance=ExtResource("11_5hmvr")]

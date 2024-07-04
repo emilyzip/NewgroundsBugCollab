@@ -1,38 +1,38 @@
 [gd_scene load_steps=28 format=3 uid="uid://cbqu4jlburpfd"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_70g64"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_etea3"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_ea2jv"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_kfg5c"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_o66qt"]
 [ext_resource type="PackedScene" uid="uid://mqjlig48ay3i" path="res://Data/NPC/npc.tscn" id="5_ajiei"]
-[ext_resource type="Texture2D" uid="uid://iertxrlvgwwl" path="res://BugAssets/Sprites/Default BGs/mediumterrarium1.png" id="5_cx2kl"]
+[ext_resource type="Texture2D" uid="uid://iertxrlvgwwl" path="res://BugAssets/Sprites/Default BGs/mediumterrarium1.png" id="6_df161"]
 [ext_resource type="PackedScene" uid="uid://dsjujtwqpp5ob" path="res://Data/Bug/bug.tscn" id="7_1oc3n"]
-[ext_resource type="Texture2D" uid="uid://b8qhayt5g1oo6" path="res://BugAssets/Sprites/Bugs/18 Sky Worm/spritesheet.png" id="8_h3pmw"]
-[ext_resource type="Texture2D" uid="uid://dnbiswr3ue0iu" path="res://BugAssets/Sprites/Bugs/22 Alien Cat/New_Piskel_1.png" id="9_4mk0d"]
+[ext_resource type="Texture2D" uid="uid://b8qhayt5g1oo6" path="res://BugAssets/Sprites/Bugs/18 Sky Worm/spritesheet.png" id="8_fsuww"]
 [ext_resource type="PackedScene" uid="uid://c524omjy3xg2u" path="res://Data/Player/camera_pan_detector.tscn" id="9_gpboq"]
-[ext_resource type="Texture2D" uid="uid://clomovfmerpdg" path="res://BugAssets/Sprites/Bugs/22 Alien Cat/spritesheet_1.png" id="10_lv724"]
-[ext_resource type="Texture2D" uid="uid://dss7d4etvjyfl" path="res://BugAssets/Sprites/Bugs/24 MochiKit/Untitled_02-25-2024_06-08-00.png" id="12_mbvtv"]
-[ext_resource type="Texture2D" uid="uid://v2l2wnyo11o5" path="res://BugAssets/Sprites/Bugs/24 MochiKit/Tomafokio.png" id="13_dcphr"]
-[ext_resource type="Texture2D" uid="uid://he8i3hs5nv5j" path="res://BugAssets/Sprites/Bugs/27 Shroomhat/purpleField.png" id="14_p11xp"]
-[ext_resource type="Texture2D" uid="uid://dquv2su4s6ehb" path="res://BugAssets/Sprites/Bugs/27 Shroomhat/shroomhat.png" id="15_x3std"]
-[ext_resource type="Texture2D" uid="uid://bx2nfunishgmv" path="res://BugAssets/Sprites/Bugs/28 The Balloon Bug/mediumterrarium.png" id="16_kbmkv"]
-[ext_resource type="Texture2D" uid="uid://bo86lq6uexbfk" path="res://BugAssets/Sprites/Bugs/28 The Balloon Bug/Baloon_Bug.png" id="17_0jlpr"]
-[ext_resource type="Texture2D" uid="uid://bfqfklxcnwnyo" path="res://BugAssets/Sprites/Bugs/29 Fomitato/lazygeko_background.png" id="18_tjrgm"]
-[ext_resource type="Texture2D" uid="uid://d3najivhnjoky" path="res://BugAssets/Sprites/Bugs/29 Fomitato/lazygeko.png" id="19_84jtj"]
-[ext_resource type="Texture2D" uid="uid://cr1cy71h8beuv" path="res://BugAssets/Sprites/Bugs/30 Battle Beetle/armadill0h_bg.png" id="20_vvl38"]
-[ext_resource type="Texture2D" uid="uid://cpn62xxx6wrv7" path="res://BugAssets/Sprites/Bugs/30 Battle Beetle/armadill0h.png" id="21_h0baw"]
-[ext_resource type="Texture2D" uid="uid://361t5h3sav4g" path="res://BugAssets/Sprites/Bugs/31 Noxitidfly/NeoBioHazardus-Background.png" id="22_2bdt6"]
-[ext_resource type="Texture2D" uid="uid://d3yam14y5wlfd" path="res://BugAssets/Sprites/Bugs/31 Noxitidfly/NeoBioHazardus.png" id="23_r3r01"]
-[ext_resource type="Texture2D" uid="uid://dbf7m1tllxkoi" path="res://BugAssets/Sprites/Bugs/33 Ku/Ku_-_Background.png" id="24_2yj37"]
-[ext_resource type="Texture2D" uid="uid://dimlaokt0yl7n" path="res://BugAssets/Sprites/Bugs/33 Ku/Ku.png" id="24_u6omj"]
-[ext_resource type="Texture2D" uid="uid://bh2u7n3sqot8v" path="res://BugAssets/Sprites/Default BGs/smalterrarium1.png" id="26_0vfx8"]
-[ext_resource type="Texture2D" uid="uid://df8kiw1p8h3sr" path="res://BugAssets/Sprites/Bugs/35 ORC beetle/bug_coolab1-sheet.png" id="27_mtbyi"]
+[ext_resource type="Texture2D" uid="uid://dnbiswr3ue0iu" path="res://BugAssets/Sprites/Bugs/22 Alien Cat/New_Piskel_1.png" id="10_30qwo"]
+[ext_resource type="Texture2D" uid="uid://clomovfmerpdg" path="res://BugAssets/Sprites/Bugs/22 Alien Cat/spritesheet_1.png" id="11_dr6m3"]
+[ext_resource type="Texture2D" uid="uid://dss7d4etvjyfl" path="res://BugAssets/Sprites/Bugs/24 MochiKit/Untitled_02-25-2024_06-08-00.png" id="12_2f3m3"]
+[ext_resource type="Texture2D" uid="uid://v2l2wnyo11o5" path="res://BugAssets/Sprites/Bugs/24 MochiKit/Tomafokio.png" id="13_ch0h7"]
+[ext_resource type="Texture2D" uid="uid://he8i3hs5nv5j" path="res://BugAssets/Sprites/Bugs/27 Shroomhat/purpleField.png" id="14_1358n"]
+[ext_resource type="Texture2D" uid="uid://dquv2su4s6ehb" path="res://BugAssets/Sprites/Bugs/27 Shroomhat/shroomhat.png" id="15_x15it"]
+[ext_resource type="Texture2D" uid="uid://bx2nfunishgmv" path="res://BugAssets/Sprites/Bugs/28 The Balloon Bug/mediumterrarium.png" id="16_sdfp7"]
+[ext_resource type="Texture2D" uid="uid://bo86lq6uexbfk" path="res://BugAssets/Sprites/Bugs/28 The Balloon Bug/Baloon_Bug.png" id="17_gcgef"]
+[ext_resource type="Texture2D" uid="uid://bfqfklxcnwnyo" path="res://BugAssets/Sprites/Bugs/29 Fomitato/lazygeko_background.png" id="18_vk5f2"]
+[ext_resource type="Texture2D" uid="uid://d3najivhnjoky" path="res://BugAssets/Sprites/Bugs/29 Fomitato/lazygeko.png" id="19_gqt2m"]
+[ext_resource type="Texture2D" uid="uid://cr1cy71h8beuv" path="res://BugAssets/Sprites/Bugs/30 Battle Beetle/armadill0h_bg.png" id="20_p5t7r"]
+[ext_resource type="Texture2D" uid="uid://cpn62xxx6wrv7" path="res://BugAssets/Sprites/Bugs/30 Battle Beetle/armadill0h.png" id="21_ub5ba"]
+[ext_resource type="Texture2D" uid="uid://361t5h3sav4g" path="res://BugAssets/Sprites/Bugs/31 Noxitidfly/NeoBioHazardus-Background.png" id="22_gk5ia"]
+[ext_resource type="Texture2D" uid="uid://d3yam14y5wlfd" path="res://BugAssets/Sprites/Bugs/31 Noxitidfly/NeoBioHazardus.png" id="23_nkaij"]
+[ext_resource type="Texture2D" uid="uid://dimlaokt0yl7n" path="res://BugAssets/Sprites/Bugs/33 Ku/Ku.png" id="24_wx5on"]
+[ext_resource type="Texture2D" uid="uid://dbf7m1tllxkoi" path="res://BugAssets/Sprites/Bugs/33 Ku/Ku_-_Background.png" id="25_46811"]
+[ext_resource type="Texture2D" uid="uid://bh2u7n3sqot8v" path="res://BugAssets/Sprites/Default BGs/smalterrarium1.png" id="26_px65x"]
+[ext_resource type="Texture2D" uid="uid://df8kiw1p8h3sr" path="res://BugAssets/Sprites/Bugs/35 ORC beetle/bug_coolab1-sheet.png" id="27_i05eh"]
 
 [node name="Lab2" type="Node2D"]
 script = ExtResource("1_70g64")
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource("2_etea3")
+tile_set = ExtResource("2_ea2jv")
 format = 2
 layer_0/name = "Props"
 layer_0/z_index = 1
@@ -87,7 +87,7 @@ IsTerminal = true
 [node name="Mediumterrarium1" type="Sprite2D" parent="NPCS/Skyworm"]
 z_index = -2
 position = Vector2(440, 200)
-texture = ExtResource("5_cx2kl")
+texture = ExtResource("6_df161")
 offset = Vector2(8, 0)
 
 [node name="Skyworm" parent="NPCS/Skyworm" instance=ExtResource("7_1oc3n")]
@@ -96,7 +96,7 @@ position = Vector2(440, 200)
 LeftFrame = 1
 UpFrame = 2
 RightFrame = 3
-WhatBug = ExtResource("8_h3pmw")
+WhatBug = ExtResource("8_fsuww")
 BugSize = "big"
 
 [node name="CameraPanDetector4" parent="NPCS/Skyworm" instance=ExtResource("9_gpboq")]
@@ -109,7 +109,7 @@ scale = Vector2(11, 1)
 z_index = -2
 position = Vector2(663.652, -88.569)
 scale = Vector2(1.04348, 0.989839)
-texture = ExtResource("9_4mk0d")
+texture = ExtResource("10_30qwo")
 offset = Vector2(8, 0)
 
 [node name="Alien Cat Terminal" parent="NPCS/Alien Cat" instance=ExtResource("5_ajiei")]
@@ -123,7 +123,7 @@ position = Vector2(664, -88)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("10_lv724")
+WhatBug = ExtResource("11_dr6m3")
 BugSize = "big"
 
 [node name="CameraPanDetector7" parent="NPCS/Alien Cat" instance=ExtResource("9_gpboq")]
@@ -135,7 +135,7 @@ scale = Vector2(5.28, 1)
 [node name="Untitled02-25-202406-08-00" type="Sprite2D" parent="NPCS/Mochikit"]
 z_index = -2
 position = Vector2(384, -90)
-texture = ExtResource("12_mbvtv")
+texture = ExtResource("12_2f3m3")
 
 [node name="Mochikit Terminal" parent="NPCS/Mochikit" instance=ExtResource("5_ajiei")]
 position = Vector2(456, -40)
@@ -152,7 +152,7 @@ position = Vector2(376, -88)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("13_dcphr")
+WhatBug = ExtResource("13_ch0h7")
 BugSize = "small"
 
 [node name="Shroomhat" type="Node" parent="NPCS"]
@@ -160,7 +160,7 @@ BugSize = "small"
 [node name="PurpleField" type="Sprite2D" parent="NPCS/Shroomhat"]
 z_index = -2
 position = Vector2(168, 200)
-texture = ExtResource("14_p11xp")
+texture = ExtResource("14_1358n")
 offset = Vector2(8, 0)
 
 [node name="CameraPanDetector7" parent="NPCS/Shroomhat" instance=ExtResource("9_gpboq")]
@@ -178,7 +178,7 @@ position = Vector2(168, 216)
 LeftFrame = 3
 UpFrame = 1
 RightFrame = 2
-WhatBug = ExtResource("15_x3std")
+WhatBug = ExtResource("15_x15it")
 BugSize = "big"
 
 [node name="The Balloon Bug" type="Node" parent="NPCS"]
@@ -186,7 +186,7 @@ BugSize = "big"
 [node name="Mediumterrarium" type="Sprite2D" parent="NPCS/The Balloon Bug"]
 z_index = -2
 position = Vector2(152, -88)
-texture = ExtResource("16_kbmkv")
+texture = ExtResource("16_sdfp7")
 offset = Vector2(8, 0)
 
 [node name="Balloon Terminal" parent="NPCS/The Balloon Bug" instance=ExtResource("5_ajiei")]
@@ -204,7 +204,7 @@ position = Vector2(136, -88)
 LeftFrame = 2
 UpFrame = 1
 RightFrame = 3
-WhatBug = ExtResource("17_0jlpr")
+WhatBug = ExtResource("17_gcgef")
 BugSize = "small"
 
 [node name="Fomitato" type="Node" parent="NPCS"]
@@ -212,7 +212,7 @@ BugSize = "small"
 [node name="LazygekoBackground" type="Sprite2D" parent="NPCS/Fomitato"]
 z_index = -2
 position = Vector2(168, 488)
-texture = ExtResource("18_tjrgm")
+texture = ExtResource("18_vk5f2")
 offset = Vector2(8, 0)
 
 [node name="CameraPanDetector7" parent="NPCS/Fomitato" instance=ExtResource("9_gpboq")]
@@ -230,7 +230,7 @@ position = Vector2(168, 488)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("19_84jtj")
+WhatBug = ExtResource("19_gqt2m")
 BugSize = "big"
 
 [node name="Battle Beetle" type="Node" parent="NPCS"]
@@ -238,7 +238,7 @@ BugSize = "big"
 [node name="Armadill0hBg" type="Sprite2D" parent="NPCS/Battle Beetle"]
 z_index = -2
 position = Vector2(440, 488)
-texture = ExtResource("20_vvl38")
+texture = ExtResource("20_p5t7r")
 offset = Vector2(8, 0)
 
 [node name="Battle Beetle Terminal" parent="NPCS/Battle Beetle" instance=ExtResource("5_ajiei")]
@@ -256,7 +256,7 @@ position = Vector2(424, 520)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("21_h0baw")
+WhatBug = ExtResource("21_ub5ba")
 BugSize = "big"
 
 [node name="Noxitidfly" type="Node" parent="NPCS"]
@@ -264,7 +264,7 @@ BugSize = "big"
 [node name="NeoBioHazardus-background" type="Sprite2D" parent="NPCS/Noxitidfly"]
 z_index = -2
 position = Vector2(440, 776)
-texture = ExtResource("22_2bdt6")
+texture = ExtResource("22_gk5ia")
 offset = Vector2(8, 0)
 
 [node name="Noxitidfly Terminal" parent="NPCS/Noxitidfly" instance=ExtResource("5_ajiei")]
@@ -282,7 +282,7 @@ position = Vector2(408, 776)
 UpFrame = 3
 RightFrame = 2
 DownFrame = 1
-WhatBug = ExtResource("23_r3r01")
+WhatBug = ExtResource("23_nkaij")
 BugSize = "big"
 
 [node name="Ku" type="Node" parent="NPCS"]
@@ -302,13 +302,13 @@ position = Vector2(696, 776)
 UpFrame = 3
 RightFrame = 1
 DownFrame = 2
-WhatBug = ExtResource("24_u6omj")
+WhatBug = ExtResource("24_wx5on")
 BugSize = "small"
 
 [node name="Ku-Background" type="Sprite2D" parent="NPCS/Ku"]
 z_index = -3
 position = Vector2(680, 776)
-texture = ExtResource("24_2yj37")
+texture = ExtResource("25_46811")
 offset = Vector2(8, 0)
 
 [node name="ORC" type="Node" parent="NPCS"]
@@ -316,7 +316,7 @@ offset = Vector2(8, 0)
 [node name="Smalterrarium1" type="Sprite2D" parent="NPCS/ORC"]
 z_index = -3
 position = Vector2(168, 776)
-texture = ExtResource("26_0vfx8")
+texture = ExtResource("26_px65x")
 offset = Vector2(8, 0)
 
 [node name="CameraPanDetector7" parent="NPCS/ORC" instance=ExtResource("9_gpboq")]
@@ -334,7 +334,7 @@ position = Vector2(168, 776)
 LeftFrame = 2
 UpFrame = 1
 RightFrame = 3
-WhatBug = ExtResource("27_mtbyi")
+WhatBug = ExtResource("27_i05eh")
 BugSize = "small"
 
 [node name="Toji" parent="NPCS" instance=ExtResource("5_ajiei")]

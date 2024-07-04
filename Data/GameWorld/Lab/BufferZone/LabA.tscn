@@ -1,42 +1,42 @@
 [gd_scene load_steps=32 format=3 uid="uid://c5oqnm5rlrn1c"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_uk2yr"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_4xkyy"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_ydnl3"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_cp02c"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_cv73o"]
-[ext_resource type="Texture2D" uid="uid://m7xtvbyvtut3" path="res://BugAssets/Sprites/Bugs/37 Road Shredder/export202403050812108570.png" id="5_w2x34"]
+[ext_resource type="Texture2D" uid="uid://m7xtvbyvtut3" path="res://BugAssets/Sprites/Bugs/37 Road Shredder/export202403050812108570.png" id="5_l7v0w"]
 [ext_resource type="PackedScene" uid="uid://c524omjy3xg2u" path="res://Data/Player/camera_pan_detector.tscn" id="6_ay4ub"]
 [ext_resource type="PackedScene" uid="uid://dsjujtwqpp5ob" path="res://Data/Bug/bug.tscn" id="7_1hlkl"]
-[ext_resource type="Texture2D" uid="uid://cmv23lci7t242" path="res://BugAssets/Sprites/Bugs/37 Road Shredder/spritesheet.png" id="8_rdr6o"]
+[ext_resource type="Texture2D" uid="uid://cmv23lci7t242" path="res://BugAssets/Sprites/Bugs/37 Road Shredder/spritesheet.png" id="8_2jk21"]
 [ext_resource type="PackedScene" uid="uid://mqjlig48ay3i" path="res://Data/NPC/npc.tscn" id="9_3p7bj"]
-[ext_resource type="Texture2D" uid="uid://c3jmoermnqqq4" path="res://BugAssets/Sprites/Bugs/36 Ofiem/ofiem_enviroment.png" id="10_xrmwn"]
-[ext_resource type="Texture2D" uid="uid://ouyd44s1er1y" path="res://BugAssets/Sprites/Bugs/36 Ofiem/ofiem.png" id="11_tukut"]
-[ext_resource type="Texture2D" uid="uid://b8gh8x1wl4ft1" path="res://BugAssets/Sprites/Bugs/34 Circus Mantis/spritesheet.png" id="12_7cmc4"]
-[ext_resource type="Texture2D" uid="uid://iertxrlvgwwl" path="res://BugAssets/Sprites/Default BGs/mediumterrarium1.png" id="12_bfhee"]
-[ext_resource type="Texture2D" uid="uid://c3qnyyk5ncomo" path="res://BugAssets/Sprites/Default BGs/smalterrarium2.png" id="14_xa652"]
-[ext_resource type="Texture2D" uid="uid://csrkytr8l6f2q" path="res://BugAssets/Sprites/Bugs/25 Weeblue/BlueBug.png" id="15_ligun"]
-[ext_resource type="Texture2D" uid="uid://bd1pa1h2pymdn" path="res://BugAssets/Sprites/Bugs/32 Plantaclysm/aftermath_plantation_terrarium.png" id="16_b05o3"]
-[ext_resource type="Texture2D" uid="uid://bo0uh3y22n66d" path="res://BugAssets/Sprites/Bugs/32 Plantaclysm/plantyclysm.png" id="17_kqjr2"]
-[ext_resource type="Texture2D" uid="uid://dhd4wgvw44u57" path="res://BugAssets/Sprites/Bugs/38 Pot Mites/Sprite-BG033.png" id="18_mhge0"]
-[ext_resource type="Texture2D" uid="uid://wqxc817mef7v" path="res://BugAssets/Sprites/Bugs/38 Pot Mites/Sprite-0013.png" id="19_585j8"]
-[ext_resource type="Texture2D" uid="uid://diew0gaxygm0a" path="res://BugAssets/Sprites/Bugs/39 Squog/HOUSE_FULL.png" id="20_pfjn0"]
-[ext_resource type="Texture2D" uid="uid://dge2uuduqdlvt" path="res://BugAssets/Sprites/Bugs/39 Squog/TheFooI.png" id="21_7u414"]
-[ext_resource type="Texture2D" uid="uid://bl3rlj60gu08l" path="res://BugAssets/Sprites/Bugs/40 Neobug/sparkyyybees_bg.png" id="22_pggkk"]
-[ext_resource type="Texture2D" uid="uid://4vuyakt6lnyt" path="res://BugAssets/Sprites/Bugs/40 Neobug/sparkyyybees.png" id="23_dqlwy"]
-[ext_resource type="Texture2D" uid="uid://c7j0obfr0a3ow" path="res://BugAssets/Sprites/Default BGs/smalterrarium4.png" id="24_qe51n"]
-[ext_resource type="Texture2D" uid="uid://dbyixvjw8mcbd" path="res://BugAssets/Sprites/Bugs/42 freek/spritesheet.png" id="25_l7xxv"]
-[ext_resource type="Texture2D" uid="uid://hxq20pke18lf" path="res://BugAssets/Sprites/Bugs/41 Brog Fugs/bugbg.png" id="26_uejeg"]
-[ext_resource type="Texture2D" uid="uid://dh0fg7f7vo6rg" path="res://BugAssets/Sprites/Bugs/41 Brog Fugs/nerd_bug.png" id="27_b8mdn"]
-[ext_resource type="Texture2D" uid="uid://dpb7g0m14veqn" path="res://BugAssets/Sprites/Bugs/44 BayBeetle/the_bug_domain.png" id="28_5v6n8"]
-[ext_resource type="Texture2D" uid="uid://qu1ox6pik2gp" path="res://BugAssets/Sprites/Bugs/44 BayBeetle/babeetle.png" id="29_yp1ms"]
-[ext_resource type="Texture2D" uid="uid://bri6x47u6pfay" path="res://BugAssets/Sprites/Bugs/46 QuestHopper/Quest_Hopper_Terrariuml.png" id="30_bqytp"]
-[ext_resource type="Texture2D" uid="uid://b8rrpp200ieop" path="res://BugAssets/Sprites/Bugs/46 QuestHopper/Quest_Hopper_spritesheet.png" id="31_rqruq"]
+[ext_resource type="Texture2D" uid="uid://c3jmoermnqqq4" path="res://BugAssets/Sprites/Bugs/36 Ofiem/ofiem_enviroment.png" id="10_6u6f0"]
+[ext_resource type="Texture2D" uid="uid://ouyd44s1er1y" path="res://BugAssets/Sprites/Bugs/36 Ofiem/ofiem.png" id="11_dl1pg"]
+[ext_resource type="Texture2D" uid="uid://iertxrlvgwwl" path="res://BugAssets/Sprites/Default BGs/mediumterrarium1.png" id="12_dsv7t"]
+[ext_resource type="Texture2D" uid="uid://b8gh8x1wl4ft1" path="res://BugAssets/Sprites/Bugs/34 Circus Mantis/spritesheet.png" id="13_d7etk"]
+[ext_resource type="Texture2D" uid="uid://c3qnyyk5ncomo" path="res://BugAssets/Sprites/Default BGs/smalterrarium2.png" id="14_duhas"]
+[ext_resource type="Texture2D" uid="uid://csrkytr8l6f2q" path="res://BugAssets/Sprites/Bugs/25 Weeblue/BlueBug.png" id="15_eulto"]
+[ext_resource type="Texture2D" uid="uid://bd1pa1h2pymdn" path="res://BugAssets/Sprites/Bugs/32 Plantaclysm/aftermath_plantation_terrarium.png" id="16_4lccw"]
+[ext_resource type="Texture2D" uid="uid://bo0uh3y22n66d" path="res://BugAssets/Sprites/Bugs/32 Plantaclysm/plantyclysm.png" id="17_y41l6"]
+[ext_resource type="Texture2D" uid="uid://dhd4wgvw44u57" path="res://BugAssets/Sprites/Bugs/38 Pot Mites/Sprite-BG033.png" id="18_fm6oh"]
+[ext_resource type="Texture2D" uid="uid://wqxc817mef7v" path="res://BugAssets/Sprites/Bugs/38 Pot Mites/Sprite-0013.png" id="19_k6yoa"]
+[ext_resource type="Texture2D" uid="uid://diew0gaxygm0a" path="res://BugAssets/Sprites/Bugs/39 Squog/HOUSE_FULL.png" id="20_r2c26"]
+[ext_resource type="Texture2D" uid="uid://dge2uuduqdlvt" path="res://BugAssets/Sprites/Bugs/39 Squog/TheFooI.png" id="21_ysgoi"]
+[ext_resource type="Texture2D" uid="uid://bl3rlj60gu08l" path="res://BugAssets/Sprites/Bugs/40 Neobug/sparkyyybees_bg.png" id="22_4c0pb"]
+[ext_resource type="Texture2D" uid="uid://4vuyakt6lnyt" path="res://BugAssets/Sprites/Bugs/40 Neobug/sparkyyybees.png" id="23_ksnqu"]
+[ext_resource type="Texture2D" uid="uid://c7j0obfr0a3ow" path="res://BugAssets/Sprites/Default BGs/smalterrarium4.png" id="24_bf0vg"]
+[ext_resource type="Texture2D" uid="uid://dbyixvjw8mcbd" path="res://BugAssets/Sprites/Bugs/42 freek/spritesheet.png" id="25_dvsm0"]
+[ext_resource type="Texture2D" uid="uid://hxq20pke18lf" path="res://BugAssets/Sprites/Bugs/41 Brog Fugs/bugbg.png" id="26_g7xsp"]
+[ext_resource type="Texture2D" uid="uid://dh0fg7f7vo6rg" path="res://BugAssets/Sprites/Bugs/41 Brog Fugs/nerd_bug.png" id="27_mosxa"]
+[ext_resource type="Texture2D" uid="uid://dpb7g0m14veqn" path="res://BugAssets/Sprites/Bugs/44 BayBeetle/the_bug_domain.png" id="28_ekusi"]
+[ext_resource type="Texture2D" uid="uid://qu1ox6pik2gp" path="res://BugAssets/Sprites/Bugs/44 BayBeetle/babeetle.png" id="29_kleei"]
+[ext_resource type="Texture2D" uid="uid://bri6x47u6pfay" path="res://BugAssets/Sprites/Bugs/46 QuestHopper/Quest_Hopper_Terrariuml.png" id="30_i1sdh"]
+[ext_resource type="Texture2D" uid="uid://b8rrpp200ieop" path="res://BugAssets/Sprites/Bugs/46 QuestHopper/Quest_Hopper_spritesheet.png" id="31_ffcyl"]
 
 [node name="LabA" type="Node2D"]
 script = ExtResource("1_uk2yr")
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource("2_4xkyy")
+tile_set = ExtResource("2_ydnl3")
 format = 2
 layer_0/name = "Props"
 layer_0/z_index = 1
@@ -74,7 +74,7 @@ position = Vector2(0, -32)
 [node name="Background" type="Sprite2D" parent="NPCS/RoadShredder"]
 z_index = -2
 position = Vector2(264, 216)
-texture = ExtResource("5_w2x34")
+texture = ExtResource("5_l7v0w")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/RoadShredder" instance=ExtResource("6_ay4ub")]
@@ -87,7 +87,7 @@ position = Vector2(248, 216)
 LeftFrame = 2
 UpFrame = 3
 RightFrame = 1
-WhatBug = ExtResource("8_rdr6o")
+WhatBug = ExtResource("8_2jk21")
 BugSize = "big"
 
 [node name="RS Terminal" parent="NPCS/RoadShredder" instance=ExtResource("9_3p7bj")]
@@ -100,7 +100,7 @@ IsTerminal = true
 [node name="Smalterrarium3" type="Sprite2D" parent="NPCS/Ofiem"]
 z_index = -2
 position = Vector2(24, 216)
-texture = ExtResource("10_xrmwn")
+texture = ExtResource("10_6u6f0")
 offset = Vector2(-8, 0)
 
 [node name="Of Terminal" parent="NPCS/Ofiem" instance=ExtResource("9_3p7bj")]
@@ -114,7 +114,7 @@ position = Vector2(24, 216)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("11_tukut")
+WhatBug = ExtResource("11_dl1pg")
 BugSize = "small"
 
 [node name="CameraPanDetector4" parent="NPCS/Ofiem" instance=ExtResource("6_ay4ub")]
@@ -126,7 +126,7 @@ scale = Vector2(5.47156, 0.852597)
 [node name="Background" type="Sprite2D" parent="NPCS/Circus"]
 z_index = -2
 position = Vector2(-200, 216)
-texture = ExtResource("12_bfhee")
+texture = ExtResource("12_dsv7t")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/Circus" instance=ExtResource("6_ay4ub")]
@@ -139,7 +139,7 @@ position = Vector2(-216, 216)
 LeftFrame = 3
 RightFrame = 1
 DownFrame = 2
-WhatBug = ExtResource("12_7cmc4")
+WhatBug = ExtResource("13_d7etk")
 BugSize = "big"
 
 [node name="Circus Terminal" parent="NPCS/Circus" instance=ExtResource("9_3p7bj")]
@@ -152,7 +152,7 @@ IsTerminal = true
 [node name="Smalterrarium3" type="Sprite2D" parent="NPCS/Weeblue"]
 z_index = -2
 position = Vector2(24, -24)
-texture = ExtResource("14_xa652")
+texture = ExtResource("14_duhas")
 offset = Vector2(-8, 0)
 
 [node name="wb Terminal" parent="NPCS/Weeblue" instance=ExtResource("9_3p7bj")]
@@ -166,7 +166,7 @@ position = Vector2(24, -24)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("15_ligun")
+WhatBug = ExtResource("15_eulto")
 BugSize = "small"
 
 [node name="CameraPanDetector4" parent="NPCS/Weeblue" instance=ExtResource("6_ay4ub")]
@@ -178,7 +178,7 @@ scale = Vector2(5.47156, 0.852597)
 [node name="Background" type="Sprite2D" parent="NPCS/Plantaclysm"]
 z_index = -2
 position = Vector2(-200, -24)
-texture = ExtResource("16_b05o3")
+texture = ExtResource("16_4lccw")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/Plantaclysm" instance=ExtResource("6_ay4ub")]
@@ -191,7 +191,7 @@ position = Vector2(-200, -24)
 LeftFrame = 2
 UpFrame = 1
 RightFrame = 3
-WhatBug = ExtResource("17_kqjr2")
+WhatBug = ExtResource("17_y41l6")
 BugSize = "big"
 
 [node name="Plantaclysm Terminal" parent="NPCS/Plantaclysm" instance=ExtResource("9_3p7bj")]
@@ -204,7 +204,7 @@ IsTerminal = true
 [node name="Background" type="Sprite2D" parent="NPCS/Pot Mites"]
 z_index = -2
 position = Vector2(264, -24)
-texture = ExtResource("18_mhge0")
+texture = ExtResource("18_fm6oh")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/Pot Mites" instance=ExtResource("6_ay4ub")]
@@ -217,7 +217,7 @@ position = Vector2(248, -24)
 LeftFrame = 3
 UpFrame = 1
 RightFrame = 2
-WhatBug = ExtResource("19_585j8")
+WhatBug = ExtResource("19_k6yoa")
 BugSize = "big"
 
 [node name="PM Terminal" parent="NPCS/Pot Mites" instance=ExtResource("9_3p7bj")]
@@ -230,7 +230,7 @@ IsTerminal = true
 [node name="Background" type="Sprite2D" parent="NPCS/Squog"]
 z_index = -2
 position = Vector2(-200, -264)
-texture = ExtResource("20_pfjn0")
+texture = ExtResource("20_r2c26")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/Squog" instance=ExtResource("6_ay4ub")]
@@ -243,7 +243,7 @@ position = Vector2(-248, -232)
 LeftFrame = 2
 UpFrame = 3
 RightFrame = 1
-WhatBug = ExtResource("21_7u414")
+WhatBug = ExtResource("21_ysgoi")
 BugSize = "small"
 
 [node name="Sqoug Terminal" parent="NPCS/Squog" instance=ExtResource("9_3p7bj")]
@@ -256,7 +256,7 @@ IsTerminal = true
 [node name="Background" type="Sprite2D" parent="NPCS/Neobug"]
 z_index = -2
 position = Vector2(264, -264)
-texture = ExtResource("22_pggkk")
+texture = ExtResource("22_4c0pb")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/Neobug" instance=ExtResource("6_ay4ub")]
@@ -269,7 +269,7 @@ position = Vector2(264, -264)
 UpFrame = 3
 RightFrame = 1
 DownFrame = 2
-WhatBug = ExtResource("23_dqlwy")
+WhatBug = ExtResource("23_ksnqu")
 BugSize = "big"
 
 [node name="Neo Terminal" parent="NPCS/Neobug" instance=ExtResource("9_3p7bj")]
@@ -282,7 +282,7 @@ IsTerminal = true
 [node name="Smalterrarium3" type="Sprite2D" parent="NPCS/Freek"]
 z_index = -2
 position = Vector2(24, -264)
-texture = ExtResource("24_qe51n")
+texture = ExtResource("24_bf0vg")
 offset = Vector2(-8, 0)
 
 [node name="Freek Terminal" parent="NPCS/Freek" instance=ExtResource("9_3p7bj")]
@@ -296,7 +296,7 @@ position = Vector2(24, -264)
 LeftFrame = 2
 UpFrame = 3
 RightFrame = 1
-WhatBug = ExtResource("25_l7xxv")
+WhatBug = ExtResource("25_dvsm0")
 BugSize = "small"
 
 [node name="CameraPanDetector4" parent="NPCS/Freek" instance=ExtResource("6_ay4ub")]
@@ -308,7 +308,7 @@ scale = Vector2(5.47156, 0.852597)
 [node name="Background" type="Sprite2D" parent="NPCS/Brog Fugs"]
 z_index = -2
 position = Vector2(-200, -504)
-texture = ExtResource("26_uejeg")
+texture = ExtResource("26_g7xsp")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/Brog Fugs" instance=ExtResource("6_ay4ub")]
@@ -321,7 +321,7 @@ position = Vector2(-232, -504)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("27_b8mdn")
+WhatBug = ExtResource("27_mosxa")
 BugSize = "big"
 
 [node name="Brog Terminal" parent="NPCS/Brog Fugs" instance=ExtResource("9_3p7bj")]
@@ -334,7 +334,7 @@ IsTerminal = true
 [node name="Background" type="Sprite2D" parent="NPCS/BayBeetle"]
 z_index = -2
 position = Vector2(264, -504)
-texture = ExtResource("28_5v6n8")
+texture = ExtResource("28_ekusi")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/BayBeetle" instance=ExtResource("6_ay4ub")]
@@ -347,7 +347,7 @@ position = Vector2(264, -504)
 LeftFrame = 2
 UpFrame = 1
 RightFrame = 3
-WhatBug = ExtResource("29_yp1ms")
+WhatBug = ExtResource("29_kleei")
 BugSize = "big"
 
 [node name="BayBeetle Terminal" parent="NPCS/BayBeetle" instance=ExtResource("9_3p7bj")]
@@ -360,7 +360,7 @@ IsTerminal = true
 [node name="Smalterrarium3" type="Sprite2D" parent="NPCS/QuestHopper"]
 z_index = -2
 position = Vector2(24, -504)
-texture = ExtResource("30_bqytp")
+texture = ExtResource("30_i1sdh")
 offset = Vector2(-8, 0)
 
 [node name="QH Terminal" parent="NPCS/QuestHopper" instance=ExtResource("9_3p7bj")]
@@ -374,7 +374,7 @@ position = Vector2(24, -504)
 LeftFrame = 1
 UpFrame = 3
 DownFrame = 2
-WhatBug = ExtResource("31_rqruq")
+WhatBug = ExtResource("31_ffcyl")
 BugSize = "small"
 
 [node name="CameraPanDetector4" parent="NPCS/QuestHopper" instance=ExtResource("6_ay4ub")]

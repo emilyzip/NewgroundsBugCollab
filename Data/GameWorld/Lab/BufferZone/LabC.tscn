@@ -1,27 +1,27 @@
 [gd_scene load_steps=17 format=3 uid="uid://b5owgnd053alu"]
 
 [ext_resource type="Script" path="res://Data/GameWorld/world.gd" id="1_b7eao"]
-[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_la4y1"]
+[ext_resource type="TileSet" uid="uid://q2ga2l5mg622" path="res://BugAssets/Sprites/Tilesets/main_tileset.tres" id="2_31358"]
 [ext_resource type="PackedScene" uid="uid://cg0qlayed7ifb" path="res://Data/Player/player.tscn" id="3_mjxqy"]
-[ext_resource type="Texture2D" uid="uid://der4rq3nwrha8" path="res://BugAssets/Sprites/Bugs/60 Asher/bg.png" id="4_0egqc"]
 [ext_resource type="PackedScene" uid="uid://cikt3ma1qjaxi" path="res://Data/Elements/Door/Door.tscn" id="4_x1db3"]
+[ext_resource type="Texture2D" uid="uid://der4rq3nwrha8" path="res://BugAssets/Sprites/Bugs/60 Asher/bg.png" id="5_ocp4d"]
 [ext_resource type="PackedScene" uid="uid://c524omjy3xg2u" path="res://Data/Player/camera_pan_detector.tscn" id="5_t1iya"]
 [ext_resource type="PackedScene" uid="uid://dsjujtwqpp5ob" path="res://Data/Bug/bug.tscn" id="6_2bjyw"]
-[ext_resource type="Texture2D" uid="uid://30m0w5o7n68t" path="res://BugAssets/Sprites/Bugs/60 Asher/succojones.png" id="7_xu3m8"]
+[ext_resource type="Texture2D" uid="uid://30m0w5o7n68t" path="res://BugAssets/Sprites/Bugs/60 Asher/succojones.png" id="8_68gj4"]
 [ext_resource type="PackedScene" uid="uid://mqjlig48ay3i" path="res://Data/NPC/npc.tscn" id="8_o3gcv"]
-[ext_resource type="Texture2D" uid="uid://b71s0vcpfjqih" path="res://BugAssets/Sprites/Bugs/61 Golden Caribbean Beetlestache/BeetlestacheRoom.png" id="9_aeyx7"]
-[ext_resource type="Texture2D" uid="uid://cll026ymccsk6" path="res://BugAssets/Sprites/Bugs/61 Golden Caribbean Beetlestache/Beetlestache.png" id="10_rqpqu"]
-[ext_resource type="Texture2D" uid="uid://cps0wxumvikhg" path="res://BugAssets/Sprites/Bugs/62 Questtrek/Questtrek_-_Spectral_Road.png" id="11_81mmt"]
-[ext_resource type="Texture2D" uid="uid://c034uq4b2wl4v" path="res://BugAssets/Sprites/Bugs/62 Questtrek/Questtrek_-_Spectral_Sandstalker.png" id="12_33ov5"]
-[ext_resource type="Texture2D" uid="uid://0i4m1fphnwgj" path="res://BugAssets/Sprites/Bugs/59 Beapillar/PaleFreakBeapillar-sheet.png" id="13_peked"]
-[ext_resource type="Texture2D" uid="uid://s3gujbskao37" path="res://BugAssets/Sprites/Bugs/51 GR4V3 VV4SP/176_Sem_Titulo_20240307181045.png" id="14_xl32a"]
-[ext_resource type="Texture2D" uid="uid://bh1n20yln6ja7" path="res://BugAssets/Sprites/Bugs/51 GR4V3 VV4SP/177_Sem_Titulo_20240307182430.png" id="15_3wlwo"]
+[ext_resource type="Texture2D" uid="uid://b71s0vcpfjqih" path="res://BugAssets/Sprites/Bugs/61 Golden Caribbean Beetlestache/BeetlestacheRoom.png" id="10_n664s"]
+[ext_resource type="Texture2D" uid="uid://cll026ymccsk6" path="res://BugAssets/Sprites/Bugs/61 Golden Caribbean Beetlestache/Beetlestache.png" id="11_xvx5b"]
+[ext_resource type="Texture2D" uid="uid://cps0wxumvikhg" path="res://BugAssets/Sprites/Bugs/62 Questtrek/Questtrek_-_Spectral_Road.png" id="12_npkim"]
+[ext_resource type="Texture2D" uid="uid://c034uq4b2wl4v" path="res://BugAssets/Sprites/Bugs/62 Questtrek/Questtrek_-_Spectral_Sandstalker.png" id="13_yfamb"]
+[ext_resource type="Texture2D" uid="uid://0i4m1fphnwgj" path="res://BugAssets/Sprites/Bugs/59 Beapillar/PaleFreakBeapillar-sheet.png" id="14_tpjm7"]
+[ext_resource type="Texture2D" uid="uid://s3gujbskao37" path="res://BugAssets/Sprites/Bugs/51 GR4V3 VV4SP/176_Sem_Titulo_20240307181045.png" id="15_683w8"]
+[ext_resource type="Texture2D" uid="uid://bh1n20yln6ja7" path="res://BugAssets/Sprites/Bugs/51 GR4V3 VV4SP/177_Sem_Titulo_20240307182430.png" id="16_2pp6l"]
 
 [node name="LabC" type="Node2D"]
 script = ExtResource("1_b7eao")
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource("2_la4y1")
+tile_set = ExtResource("2_31358")
 format = 2
 layer_0/name = "Props"
 layer_0/z_index = 1
@@ -59,7 +59,7 @@ position = Vector2(0, -32)
 [node name="Background" type="Sprite2D" parent="NPCS/Asher"]
 z_index = -2
 position = Vector2(264, 216)
-texture = ExtResource("4_0egqc")
+texture = ExtResource("5_ocp4d")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/Asher" instance=ExtResource("5_t1iya")]
@@ -72,7 +72,7 @@ position = Vector2(248, 216)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("7_xu3m8")
+WhatBug = ExtResource("8_68gj4")
 BugSize = "big"
 
 [node name="Asher Terminal" parent="NPCS/Asher" instance=ExtResource("8_o3gcv")]
@@ -85,7 +85,7 @@ IsTerminal = true
 [node name="Background" type="Sprite2D" parent="NPCS/Golden"]
 z_index = -2
 position = Vector2(-8, 216)
-texture = ExtResource("9_aeyx7")
+texture = ExtResource("10_n664s")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/Golden" instance=ExtResource("5_t1iya")]
@@ -98,7 +98,7 @@ position = Vector2(-56, 216)
 LeftFrame = 2
 UpFrame = 1
 RightFrame = 3
-WhatBug = ExtResource("10_rqpqu")
+WhatBug = ExtResource("11_xvx5b")
 BugSize = "big"
 
 [node name="Golden Terminal" parent="NPCS/Golden" instance=ExtResource("8_o3gcv")]
@@ -111,7 +111,7 @@ IsTerminal = true
 [node name="Background" type="Sprite2D" parent="NPCS/Questtrek"]
 z_index = -2
 position = Vector2(264, -24)
-texture = ExtResource("11_81mmt")
+texture = ExtResource("12_npkim")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/Questtrek" instance=ExtResource("5_t1iya")]
@@ -124,7 +124,7 @@ position = Vector2(232, -8)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("12_33ov5")
+WhatBug = ExtResource("13_yfamb")
 BugSize = "big"
 
 [node name="Questtrek Terminal" parent="NPCS/Questtrek" instance=ExtResource("8_o3gcv")]
@@ -137,7 +137,7 @@ IsTerminal = true
 [node name="Background" type="Sprite2D" parent="NPCS/Beapillar"]
 z_index = -2
 position = Vector2(-8, -24)
-texture = ExtResource("11_81mmt")
+texture = ExtResource("12_npkim")
 offset = Vector2(-8, 0)
 
 [node name="CameraPanDetector4" parent="NPCS/Beapillar" instance=ExtResource("5_t1iya")]
@@ -150,7 +150,7 @@ position = Vector2(-56, -24)
 LeftFrame = 3
 UpFrame = 2
 RightFrame = 1
-WhatBug = ExtResource("13_peked")
+WhatBug = ExtResource("14_tpjm7")
 BugSize = "big"
 
 [node name="Beapillar Terminal" parent="NPCS/Beapillar" instance=ExtResource("8_o3gcv")]
@@ -163,7 +163,7 @@ IsTerminal = true
 [node name="176SemTitulo20240307181045" type="Sprite2D" parent="NPCS/grav"]
 z_index = -2
 position = Vector2(-248, -8)
-texture = ExtResource("14_xl32a")
+texture = ExtResource("15_683w8")
 offset = Vector2(0, -8)
 
 [node name="Grav" parent="NPCS/grav" instance=ExtResource("6_2bjyw")]
@@ -172,7 +172,7 @@ position = Vector2(-248, -24)
 LeftFrame = 2
 UpFrame = 1
 RightFrame = 3
-WhatBug = ExtResource("15_3wlwo")
+WhatBug = ExtResource("16_2pp6l")
 BugSize = "big"
 
 [node name="Grav Terminal" parent="NPCS/grav" instance=ExtResource("8_o3gcv")]
