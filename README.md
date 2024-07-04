@@ -10,7 +10,9 @@
  [PKMN RBYGSC](https://www.dafont.com/pkmn-rbygsc.font)    
  [Pokemon Classic](https://www.dafont.com/pokemon-classic.font)    
  Before booting up the editor but after putting these font files in, Take the import files from [here](https://github.com/emilyzip/NewgroundsBugCollab/tree/main/FontImports) and place them in the folder with the fonts, this should prevent any issues with crashing.
-
+  
+ Please do keep in mind that the [LICENSE](LICENSE) of this repo does not apply to the art assets within the game. 
+  
  I love bugs! ! !  
  and i LOVE YOU ! ! ! <3  
   
