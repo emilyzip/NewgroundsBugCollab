@@ -4,11 +4,12 @@
 
  This repo uses submodules so if you wanna clone it you should use this i think:  
  `git clone --recurse-submodules https://github.com/emilyzip/NewgroundsBugCollab`   
- After you clone you'll have to restart the editor 3 or 4 times without saving for all the assets to import correctly, i think its a godot issue?   
+ After you clone you'll have to restart the editor 3 or 4 times without saving for all the assets to import correctly.  
  
- You will have to import these two fonts yourself, they are typically stored in 'root/PrivateData/'  
+ You will have to import these two fonts yourself, they are typically stored in 'root/PrivateData/' 
  [PKMN RBYGSC](https://www.dafont.com/pkmn-rbygsc.font)  
  [Pokemon Classic](https://www.dafont.com/pokemon-classic.font)  
+ Before booting up the editor but after putting these font files in, Take the import files from [here](https://github.com/emilyzip/NewgroundsBugCollab/tree/main/FontImports) and place them in the folder with the fonts, this should prevent any issues with crashing.
 
  I love bugs! ! !  
  and i LOVE YOU ! ! ! <3  
