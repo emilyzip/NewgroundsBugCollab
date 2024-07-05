@@ -1,6 +1,6 @@
 # The Newgrounds Bug Collab!
  Little pokemon themed Museum game based around a virtual bug zoo, all containment cells are user created and submitted.  
- The Collab was hosted by [Frosty.](https://frosty.newgrounds.com/) I merely handled all this programming/gamedev junk.  
+ The Collab was hosted by [Frosty.](https://frosty.newgrounds.com/) I merely handled all this programming/gamedev junk. This was built in Godot v4.2.2.  
 
  This repo uses submodules so if you wanna clone it you should use this i think:  
  `git clone --recurse-submodules https://github.com/emilyzip/NewgroundsBugCollab`   
