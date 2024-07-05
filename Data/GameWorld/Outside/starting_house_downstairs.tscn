@@ -28,6 +28,11 @@ position = Vector2(248, 200)
 position = Vector2(200, 152)
 NPC_Talky = "P_TV"
 
+[node name="Dracula" parent="Props" instance=ExtResource("4_5ecq1")]
+position = Vector2(72, 184)
+NPC_SheetID = 28
+NPC_Talky = "Dracula"
+
 [node name="Doors" type="Node" parent="."]
 
 [node name="Door_N2" parent="Doors" instance=ExtResource("3_htegi")]

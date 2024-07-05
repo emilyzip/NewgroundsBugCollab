@@ -78,9 +78,14 @@ NPC_SheetID = 29
 NPC_Talky = "Duke"
 
 [node name="GiantRat" parent="NPCS" instance=ExtResource("4_np2li")]
-position = Vector2(200, 56)
+position = Vector2(648, 72)
 NPC_SheetID = 11
 NPC_Talky = "GiantRat"
+
+[node name="Slug" parent="NPCS" instance=ExtResource("4_np2li")]
+position = Vector2(200, 56)
+NPC_SheetID = 2
+NPC_Talky = "Slug"
 
 [editable path="Doors/Door_S"]
 [editable path="Doors/Door_A1"]

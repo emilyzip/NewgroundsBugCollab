@@ -12,7 +12,7 @@ config_version=5
 
 config/name="BugCollab"
 config/description="Newgrounds Bug Collab museum game!"
-config/version="1.0.2"
+config/version="1.0.4"
 config/tags=PackedStringArray("collab")
 run/main_scene="res://Data/Bootsplash/Bootsplash.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
