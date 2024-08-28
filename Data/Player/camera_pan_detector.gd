@@ -16,12 +16,12 @@ func _on_body_exited(body):
 
 func pan_out(body):
 	var tween = get_tree().create_tween()
+	tween.tween_property(body.PlayerCamera, "position", camera_marker.position, 1.0)
+	tween.set_parallel()
 	tween.tween_property(body.PlayerCamera, "zoom", Vector2(4,4), 1.5).set_trans(Tween.TRANS_CUBIC)
-	var tween2 = get_tree().create_tween()
-	tween2.tween_property(body.PlayerCamera, "position", camera_marker.position, 1.0)
 
 func pan_back_in(body):
 	var tween = get_tree().create_tween()
+	tween.tween_property(body.PlayerCamera, "position", Vector2(0,0), 1.0)
+	tween.set_parallel()
 	tween.tween_property(body.PlayerCamera, "zoom", Vector2(5,5), 1.0).set_trans(Tween.TRANS_CUBIC)
-	var tween2 = get_tree().create_tween()
-	tween2.tween_property(body.PlayerCamera, "position", Vector2(0,0), 1.0)

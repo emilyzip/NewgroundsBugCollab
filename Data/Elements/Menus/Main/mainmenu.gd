@@ -7,6 +7,7 @@ extends Control
 @onready var version_info = $"Version Info"
 
 func _ready():
+	start_button.grab_focus()
 	start_button.disabled = false
 	options_button.disabled = false
 	credits_button.disabled = false
@@ -23,11 +24,11 @@ func _ready():
 		TalkyManager.canMove = true
 	if get_tree().root.has_node('BugInspect'):
 		get_tree().root.get_node('BugInspect').queue_free()
-		TalkyManager.isTalky == false
+		TalkyManager.isTalky = false
 		TalkyManager.canMove = true
 	if get_tree().root.has_node('Talkybox'):
 		get_tree().root.get_node('Talkybox').queue_free()
-		TalkyManager.isTalky == false
+		TalkyManager.isTalky = false
 		TalkyManager.canMove = true
 
 func _on_start_pressed():
